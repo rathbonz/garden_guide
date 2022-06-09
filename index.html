@@ -1,9 +1,21 @@
 <html>
     <head>
         <title>Garden Guide</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Welcome to the Garden Guide</h1>
-        <h2>Are you a new or existing user?</h2>
+        <h2>Are you a new or existing user</h2>
+        <form>
+            <input type="radio" id="new" name="user_indicator">
+            <label for="new"> New</label>
+            <input type="radio" id="existing" name="user_indicator">
+            <label for="existing"> Existing</label>
+        </form>
+        <h2>Enter Your User Name</h2>
+        <form>
+            <input type="text" id="fname" name="fname">
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
