@@ -1,3 +1,137 @@
 body {
   background: #F1C188;
+  margin: 0;
+  text-align: center;
+}
+
+span {
+  color: #12921E;
+} /*# sourceMappingURL=main.css.map */
+.navbar {
+  background: #EDA44E;
+  padding: 1em;
+  display: flex;
+  place-content: space-evenly;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+}
+.navbar nav {
+  display: inline;
+}
+.navbar nav ul {
+  padding-left: 4em;
+  display: inline;
+}
+.navbar nav li {
+  padding-left: 1em;
+  display: inline;
+}
+.navbar nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+.navbar nav a.current {
+  color: #12921E;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+  display: none;
+}
+.navbar .mobile-menu-exit {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  text-align: center;
+}
+.hero a {
+  color: #12921E;
+  text-decoration: none;
+}
+
+.index-body {
+  margin-top: 5em;
+}
+
+.user-button {
+  background-color: #f8f8f8;
+  color: black;
+  padding: 0.6em 1.3em;
+  margin: 0 0.5em 0 0.5em;
+  font-size: 1.2em;
+}
+.user-button:hover {
+  background-color: #12921E;
+  color: #f8f8f8;
+}
+
+.form-box {
+  background-color: #FADCB9;
+  width: 300px;
+  display: inline-block;
+  margin: 2em;
+}
+
+.user-forms {
+  padding: 1em;
+  text-align: left;
+}
+
+#new-user-id {
+  display: none;
+}
+
+#existing-user-id {
+  display: none;
+}
+
+.container {
+  text-align: left;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 1em;
+  background-color: #F0E2D2;
+}
+.container .plant-listing {
+  background-color: #F0E2D2;
+  padding: 1em;
+  padding-left: 2em;
+}
+.container .plant-item {
+  height: 5em;
+  background-color: #F0E2D2;
+}
+.container .plant-image img {
+  width: 3em;
+  height: 3em;
+}
+.container .item-inline {
+  float: left;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+.container p {
+  margin: 0;
+}
+.container .plant-name {
+  padding-top: 2em;
+}
+.container .like-indicator {
+  padding-top: 2em;
+}
+.container .contact-area {
+  background-color: #F0E2D2;
+  padding: 1em;
 }/*# sourceMappingURL=main.css.map */
