@@ -25,7 +25,7 @@
     $host_name = 'localhost';
     $database = 'garden_guide';
     $user_name = 'main_user';
-    $password = 'Theduketroy1!';
+    $password = 'xxx';
   
     $link = new mysqli($host_name, $user_name, $password, $database);
     $session_first_name = $_SESSION["first_name"];
@@ -55,7 +55,7 @@
       $host_name = 'localhost';
       $database = 'garden_guide';
       $user_name = 'main_user';
-      $password = 'Theduketroy1!';
+      $password = 'xxx';
     
       $link = new mysqli($host_name, $user_name, $password, $database);
     
@@ -91,7 +91,7 @@
     $host_name = 'localhost';
     $database = 'garden_guide';
     $user_name = 'main_user';
-    $password = 'Theduketroy1!';
+    $password = 'xxx';
   
     $link = new mysqli($host_name, $user_name, $password, $database);
   
